@@ -17,9 +17,10 @@ import {
   MenuItem,
 } from "@mui/material";
 import "bootstrap/dist/css/bootstrap.min.css";
+import config from "./config.js";
 
 export default function VoterApp() {
-  const baseUrl = `${config.url};
+  const baseUrl = '${config.url}';
   const [voter, setVoter] = useState({
     id: "",
     name: "",
